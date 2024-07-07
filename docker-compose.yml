@@ -47,8 +47,8 @@ services:
     image: nginx:latest
     ports:
       - "80:80"
-      - "81:81"
-      - "443:443"
+#      - "81:81"
+  #    - "443:443"
     depends_on:
       - frontend
       - backend
@@ -58,7 +58,7 @@ services:
     restart: unless-stopped
     ports:
       - '8090:81'
-      - '80:80'
+   #   - '80:80'
       - '443:443'
     volumes:
       - ./proxy/data:/data
