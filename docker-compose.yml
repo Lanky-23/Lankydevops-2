@@ -43,8 +43,7 @@ services:
   nginx:
     build: 
       context: ./nginx
-      dockerfile: ./Dockerfile 
-    image: nginx:latest
+      #dockerfile: ./Dockerfile 
     ports:
       - "80:80"
 #      - "81:81"
