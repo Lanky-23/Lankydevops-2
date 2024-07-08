@@ -20,7 +20,7 @@ Each directory has its own README file with detailed instructions specific to th
 Node.js (version 14.x or higher)
 npm (version 6.x or higher)
 
-## Getting Started
+## Manual Deployment 
 ### Backend
 
 1. Clone the repository to your local machine.
