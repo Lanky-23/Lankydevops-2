@@ -21,6 +21,7 @@ Node.js (version 14.x or higher)
 npm (version 6.x or higher)
 
 ## Manual Deployment 
+
 ### Backend
 
 1. Clone the repository to your local machine.
